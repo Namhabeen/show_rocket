@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, user-scalable=no">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        {% load static %}
+        <link rel="stylesheet" href="{% static 'css/logout.css' %}" type="text/css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script type="text/javascript"></script>
+        <script src="{% static 'js/logout.js' %}"></script>
+        <title>logout</title>
+    </head>
+
+    <body>
+        {% load static %}
+        <div id="bt">
+            <img id="yes" src="{% static 'img/yes_b.png' %}" onclick="y()">
+            <img id="no" src="{% static 'img/no_b.png' %}" onclick="n()">
+        </div>
+    </body>
+</html>
