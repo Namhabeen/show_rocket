@@ -377,7 +377,7 @@ body{
         }
     }
 
-    @media all and (min-width:1025px){    
+    @media (min-height:800px) and (min-width:1025px){    
         body{
             background: url("../img/langchs_bg_d.png") no-repeat center center fixed;
             background-attachment:local;
