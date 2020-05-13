@@ -15,8 +15,8 @@
     <body>
        {% load static %}
        <img id="logo" src="{% static 'img/ss_lg.png' %}">
-       <img id="gonotice" src="{% static 'img/if_b.png' %}">
-       <img id="goset" src="{% static 'img/st_bt.png' %}">
+       <img id="gonotice" src="{% static 'img/if_b.png' %}"  onclick="location.href='/notice'">
+       <img id="goset" src="{% static 'img/st_bt.png' %}"  onclick="location.href='index/setting/'">
 
        <div id="text">
            <span id="user">기후현지점</span>
