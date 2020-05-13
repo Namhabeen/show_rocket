@@ -252,7 +252,7 @@ body{
 @media (max-height:1000px) and (min-width:1025px){
         
     body{
-        background: url("../img/cpm_bg_d.png") no-repeat center center fixed;
+        background: url("../img/um_bg_d.png") no-repeat center center fixed;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -328,7 +328,7 @@ body{
         width:50%;
         background-color: white;
         border-radius: 25px;
-        filter: drop-shadow(30px 30px 30px  #d9d9d9);
+        filter:none;
         margin-top:3%;
     }
 
@@ -381,7 +381,7 @@ body{
 
 @media (min-width:1919px) and (min-height:1079px){
     body{
-        background: url("../img/cpm_bg_d.png") no-repeat center center fixed;
+        background: url("../img/um_bg_d.png") no-repeat center center fixed;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -456,7 +456,7 @@ body{
         width:40%;
         background-color: white;
         border-radius: 45px;
-        filter: drop-shadow(30px 30px 30px #d9d9d9);
+        filter: none;
         margin-top:3%;
        
     }
