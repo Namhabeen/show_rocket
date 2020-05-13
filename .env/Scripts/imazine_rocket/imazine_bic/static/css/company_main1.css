@@ -62,3 +62,42 @@ body{
     color:white;
 }
 
+.reservatoin_list #user_name{
+    background: url("../img/w_box.png");
+}
+
+.reservation_list #user_name{
+    font-family: NotoSansCJKKR-Bold;
+    font-size:0.988em;
+    color:black;
+}
+
+.reservation_list #user_nim{
+    font-family: NotoSansCJKKR-Regular;
+    font-size:0.988em;
+    color:black;
+}
+
+.reservation_list #user_date{
+    font-family: NotoSansCJKKR-Bold;
+    font-size:0.988em;
+    color:black;
+}
+
+.reservation_list #user_time{
+    font-family: NotoSansCJKKR-Bold;
+    font-size:0.988em;
+    color:black;
+}
+
+.reservation_list #user_num{
+    font-family: NotoSansCJKKR-Bold;
+    font-size:0.988em;
+    color:black;
+}
+
+.reservation_list #user_end{
+    font-family: NotoSansCJKKR-Regular;
+    font-size: 0.988em;
+    color:black;
+}

@@ -4,22 +4,39 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, user-scalable=no">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="../css/company_main.css" type="text/css">
+        {% load static %}
+        <link rel="stylesheet" href="{% static 'css/company_main1.css' %}" type="text/css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
         <script type="text/javascript"></script>
-        <script src="../js/company_main.js"></script>
+        <script src="{% static 'js/coompany_main.js' %}"></script>
         <title>company_main</title>
     </head>
  
     <body>
-       <img id="logo" src="../img/ss_lg.png">
-       <img id="gonotice" src="../img/if_b.png">
-       <img id="goset" src="../img/st_bt.png">
+       {% load static %}
+       <img id="logo" src="{% static 'img/ss_lg.png' %}">
+       <img id="gonotice" src="{% static 'img/if_b.png' %}">
+       <img id="goset" src="{% static 'img/st_bt.png' %}">
 
        <div id="text">
            <span id="user">기후현지점</span>
            <span id="nim">님,</span><br                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    >
            <span id="welcome">반갑습니다!</span>
        </div>
+
+     <div class="back">
+         <img id="w_box" src="{%static 'img/w_box.png' %}">
+       <div class="reservation_list">
+           <span id="user_name">전은정</span>
+           <span id="user_nim">님이</span>
+           <span id="user_date">2020년 05월 11일</span>
+           <br>
+           <span id="user_time">14:00~19:00</span>
+           <br>
+           <span id="user_num">1</span>
+           <span id="user_num">대</span>
+           <span id="user_end">예약하셨습니다.</span>
+       </div>
+    </div>
     </body>
 </html>

@@ -377,81 +377,8 @@ body{
         }
     }
 
-    @media (min-height:800px) and (min-width:1025px){    
-        body{
-            background: url("../img/langchs_bg_d.png") no-repeat center center fixed;
-            background-attachment:local;
-            -webkit-background-size: cover;
-            -moz-background-size: cover;
-            -o-background-size: cover;
-            background-size: cover;
-            }
-
-        #a{
-            display: flex;
-            flex-wrap:wrap;
-            justify-content: center;
-        }
-            
-        #txt{
-            position: relative;
-            display: flex;
-            flex-wrap:wrap;
-            justify-content: center;
-            color:#FFFFFF;
-            width:900px;
-            right:3em;
-        }
     
-        #txt #wel{  
-            font-family:NotoSansCJKKR-Bold;
-            font-size: 40px;
-        }
-    
-        #txt #plz{ 
-            font-family:NotoSansCJKKR-Bold;
-            font-size: 38px;
-        }
-    
-        #ssbike{
-            display: flex;
-            justify-content: left;
-            width:7%;
-            height:auto;
-            margin-top:5%;
-        }
-    
-        #l{
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            margin-top:-40%;
-        }
-    
-        #lan{
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            width:25em;
-        }
-    
-        #lan #lan_e #eng{
-            width:20em;
-            height:auto;
-        }
-    
-        #lan #lan_k #kr{
-            width:20em;
-            height:auto;
-        }
-    
-        #lan #lan_j #jp{
-            width:20em;
-            height:auto;
-        }
-    }
-
-    @media (min-height:799px) and (min-width:1025px){    
+    @media (min-width:1025px)and (min-height:799px){    
         body{
             background: url("../img/langchs_bg_d.png") no-repeat center center fixed;
             background-attachment:local;

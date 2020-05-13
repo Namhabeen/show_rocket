@@ -19,8 +19,8 @@
         {% load i18n %}
 
         <div id="header">
-           <img id="ss_lg" src="../img/ss_lg.png">
-           <a href="{% url 'setting_main'%}"><img id="st_bt" src="../img/st_bt.png" onclick="st_bt();"></a>
+            <img id="ss_lg" src="{% static 'img/ss_lg.png' %}">
+           <a href="{% url 'setting_main'%}"><img id="st_bt" src="{% static 'img/st_bt.png' %}" onclick="st_bt();"></a>
         </div>
         
         {% for user in users %}

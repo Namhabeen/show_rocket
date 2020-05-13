@@ -8,7 +8,7 @@
         <link rel="stylesheet" href="{% static 'css/choose_lan.css' %}" type="text/css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
         <script type="text/javascript"></script>
-        <script src="{% static 'js/choose_lan.js' %}"></script>
+        <script src="{% static 'js/choose_lan1.js' %}"></script>
         <title>choose_lan</title>
     </head>
  
@@ -26,9 +26,9 @@
         <form action = "{% url 'choose_lan' %}" name = "lanForm" method = "POST" accept-charset="UTF-8"> {% csrf_token %}
             <span id="l">
             <div id="lan">
-                <span id="lan_e"><img id="eng" src="{% static 'img/eg_b.png' %}" onclick="eg()"></span>
-                <span id="lan_k"><img id="kr" src="{% static 'img/kr_b.png' %}" onclick="kr()"></span>
-                <span id="lan_j"><img id="jp" src="{% static 'img/jp_b.png' %}" onclick="jp()"></span>
+                <span id="lan_e"><img id="eng" src="{% static 'img/eg_b.png' %}"onclick= "location.href='/choose_use'"></span>
+                <span id="lan_k"><img id="kr" src="{% static 'img/kr_b.png' %}" onclick= "location.href='/choose_use'"></span>
+                <span id="lan_j"><img id="jp" src="{% static 'img/jp_b.png' %}"onclick= "location.href='/choose_use'"></span>
                 <input type = "hidden" name = "lan" id = "lan" value = "">
             </div>
             </span>
